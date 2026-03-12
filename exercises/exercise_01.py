@@ -1,18 +1,32 @@
-# Crie 2 listas: uma com 5 nomes (João, Maria, Kleber, Caio e Sarah) e outra com 5 valores em reais(R$) correspondentes ao saldo da conta do usuário(1350,20; 240,50; 30,00; 830,15 e 50,00), 
-# e usando laços de repetição imprima os dados da seguinte forma(o preenchimento das listas deve ser feito também com laços de repetição do mesmo modo que será impresso: salvar nome e depois salvar o saldo correspondente):
+'''
+Crie um programa em Python para registrar clientes de um banco e seus respectivos saldos em conta.
+O programa deve permitir que o usuário cadastre vários clientes, informando:
+  - Nome do cliente
+  - Saldo da conta
 
-# Entradas:
+Regras do programa:
+1. O sistema deve pedir ao usuário para inserir o nome de um cliente.
+2. Em seguida, deve solicitar o saldo da conta desse cliente.
+  - O saldo pode ser digitado usando vírgula ou ponto como separador decimal.
 
-# Insira o nome: 
-# Insira o saldo: 
+3. Após inserir os dados, o programa deve perguntar ao usuário se ele deseja continuar cadastrando novos clientes.
+  - O processo deve se repetir até que o usuário digite "N" para parar.
 
+Ao final do cadastro, o programa deve exibir uma listagem formatada com:
 
-# Saída/Impressão:
+Título: "LISTA DE CLIENTES - BANCO NACIONAL"
+Uma tabela contendo:
+  - Nome do cliente
+  - Saldo da conta formatado em reais (R$) com duas casas decimais
 
-# LISTA DE CLIENTES - BANCO NACIONAL
-# NOME SALDO CONTA
-# nome0 saldo0 #0
-# nome1 saldo1 #2
-# nome2 saldo2 #4
+Exemplo de saída esperada:
 
+LISTA DE CLIENTES - BANCO NACIONAL
+--------------------------
+   NOME    |    SALDO CONTA
+--------------------------
+Maria | R$1200.50
+João  | R$530.00
+Ana   | R$89.90
 
+'''
