@@ -19,13 +19,16 @@ Essas habilidades são essenciais em qualquer projeto profissional.
 ```
 wolf-python-training
 │
-├── exercises
+├── exercises/
+│   └── src/
+│        └── petr4.csv
+│        └── btc.csv
 │   └── exercise_01.py
 |
-├── member
+├── member/
 │   └── exercise_01_matheus.py
 |
-├── solutions
+├── solutions/
 │   └── solution_01.py
 └── README.md
 ```
