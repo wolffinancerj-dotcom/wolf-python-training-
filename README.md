@@ -162,6 +162,7 @@ O líder do projeto irá revisar o Pull Request.
 Possíveis resultados:
 
 ✔ aprovado → o código é integrado ao repositório
+
 ✏ pedido de alterações → você deve ajustar o código e atualizar o PR
 
  
