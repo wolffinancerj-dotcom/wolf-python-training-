@@ -27,6 +27,7 @@ wolf-python-training
 |
 ├── member/
 │   └── exercise_01_matheus.py
+│   └── exercise_01_maria.py
 |
 ├── solutions/
 │   └── solution_01.py
