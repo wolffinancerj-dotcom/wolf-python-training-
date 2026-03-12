@@ -1,3 +1,4 @@
+# Solução feita pela Maria Luísa
 def verificar_senha(teste_senha, senha):
     return teste_senha == senha
 
