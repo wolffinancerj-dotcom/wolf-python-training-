@@ -1,20 +1,17 @@
-def verificar_senha(senha_digitada):
-    senha_correta = "1234"
-    return senha_digitada == senha_correta
+def verificar_senha(teste_senha, senha):
+    return teste_senha == senha
 
+senha = "0000"
 
-tentativas = 0
-max_tentativas = 3
-
-while tentativas < max_tentativas:
-    senha = input("Digite a senha: ")
-
-    if verificar_senha(senha):
-        print("Acesso permitido!")
+tries = 0
+while tries < 3:
+    teste_senha = input("Digite sua senha: ")
+    if verificar_senha(teste_senha, senha):
+        print("Você entrou!")
         break
     else:
-        tentativas += 1
-        print("Senha incorreta!")
-
-        if tentativas == max_tentativas:
-            print("Número máximo de tentativas excedido. Programa encerrado.")
+        tries += 1
+        if tries < 3:
+            print(f"Você tem {3 - tries} tentativas restantes.")
+        else:
+            print("Acesso bloqueado.")
